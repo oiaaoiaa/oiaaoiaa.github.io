@@ -26,6 +26,7 @@ body {
     border-color: #E67324;
     box-shadow: none;
 }
+
 /* Navbar Styling */
 .navbar {
     position: fixed;
@@ -34,8 +35,8 @@ body {
     height: auto;
     background-color: black !important;
     margin-top: 0;
-    z-index: 1000; /* Ensure the navbar is on top */
-    top: 0; /* Ensure the navbar is aligned at the top */
+    z-index: 1000; 
+    top: 0; 
 }
 
 .navbar-nav {
@@ -51,29 +52,29 @@ body {
     width: 100%;
     height: 90vh;
     position: relative;
-    margin-top: 60px; /* Adjust this to match the height of the navbar */
-    z-index: 0; /* Ensure the image background is behind the overlay */
+    margin-top: 60px; 
+    z-index: 0; 
 }
 
-/* Optional: Overlay and Text Content Style */
+/* Overlay and Text Content Style */
 .overlay {
     position: absolute;
     top: 50%;
-    left: 50%; /* Adjusted to center horizontally */
+    left: 50%; 
     width: 100%;
     height: 100%;
-    transform: translate(-50%, -50%); /* Ensures perfect centering */
-    background-color: rgba(0, 0, 0, 0.5); /* Dim the background */
-    z-index: 1; /* Ensure the overlay sits on top of the background */
+    transform: translate(-50%, -50%); 
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
 }
 
 .text-content {
     font-size: 3em;
-    text-align: left; /* Text aligned to the left */
+    text-align: left; 
     margin-left: 4%;
-    max-width: 50%; /* Limits the width */
+    max-width: 50%; 
     color: white;
-    margin-top: 17%; /* Removed the top margin for better alignment */
+    margin-top: 17%; 
 }
 
 .navbar-brand {
