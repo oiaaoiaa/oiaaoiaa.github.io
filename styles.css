@@ -44,39 +44,6 @@ body {
     gap: 25px;
 }
 
-/* Image Background Section */
-.image-background {
-    background-image: url('https://images6.alphacoders.com/947/947671.jpg');
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 90vh;
-    position: relative;
-    margin-top: 60px; 
-    z-index: 0; 
-}
-
-/* Overlay and Text Content Style */
-.overlay {
-    position: absolute;
-    top: 50%;
-    left: 50%; 
-    width: 100%;
-    height: 100%;
-    transform: translate(-50%, -50%); 
-    background-color: rgba(0, 0, 0, 0.5); 
-    z-index: 1; 
-}
-
-.text-content {
-    font-size: 3em;
-    text-align: left; 
-    margin-left: 4%;
-    max-width: 50%; 
-    color: white;
-    margin-top: 17%; 
-}
-
 .navbar-brand {
     margin-left: 5%;
 }
@@ -136,14 +103,14 @@ body {
 }
 
 .display-4 {
-    font-family: "Stick", sans-serif;
+    font-family: "Oswald", serif;
     font-size: 90px;
     font-weight: bold;
     color: white;
 }
 
 .lead {
-    font-family: "Yuji Syuku", serif;
+    font-family: Noto Sans;
     font-size: 1.5rem;
     font-weight: 300;
     color: color;
@@ -177,14 +144,14 @@ body {
 }
 
 .text-center {
-    font-family: serif;
+    font-family: Oswald;
     padding-top: 70px;
     font-size: 40px;
     margin-bottom: 20px;
 }
 
 .description {
-    font-family: "Noto Sans JP", sans-serif;
+    font-family: Noto Sans;
     font-size: 20px;
     text-align: center;
 }
@@ -209,7 +176,7 @@ body {
 }
 
 .card-title {
-    font-family: Arial;
+    font-family: Noto Sans;
     font-size: 25px;
     color: black;
     margin-bottom: 10px;
@@ -217,7 +184,7 @@ body {
 }
 
 .card-text {
-    font-family: Arial;
+    font-family: Noto Sans;
     font-size: 15px;
     color: black;
 }
@@ -231,6 +198,8 @@ body {
     flex-wrap: wrap;
     justify-content: center;
 }
+
+
 
 
 
