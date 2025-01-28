@@ -233,5 +233,102 @@ body {
 }
 
 
+@media (max-width: 1200px) {
+    .card {
+        width: 120%;
+        height: 520px;
+        margin: 5px auto;
+    }
+}
 
+@media (max-width: 992px) {
+    .navbar-collapse {
+        background-color: maroon;
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+        text-align: right;
+    }
+
+    .navbar-nav .nav-link {
+        margin-bottom: 5px;
+    }
+
+    .navbar-toggler {
+        margin-right: 3%;
+    }
+
+    .navbar-toggler:focus,
+    .navbar-toggler:active {
+        outline: none;
+        box-shadow: none;
+    }
+
+    .card {
+        width: 150%;
+        height: 550px;
+        margin: 10px auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-collapse {
+        background-color: maroon;
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+        text-align: right;
+    }
+
+    .navbar-nav .nav-link {
+        margin-bottom: 5px;
+    }
+
+    .navbar-toggler {
+        margin-right: 3%;
+    }
+
+    .navbar-toggler:focus,
+    .navbar-toggler:active {
+        outline: none;
+        box-shadow: none;
+    }
+
+    .image-background {
+        background-image: url('https://wallpapercave.com/wp/wp1818242.png');
+        background-size: cover;
+        background-position: center;
+        height: 50vh;
+        padding-top: 0; /* No need for top margin in small screens */
+    }
+
+    .text-content {
+        font-size: 2.5em; /* Adjust font size */
+        margin-top: 20%;  /* Adjust positioning */
+    }
+
+    .card {
+        width: 100%;
+        height: 500px;
+        margin: 10px auto;
+    }
+
+    .display-4 {
+        font-size: 40px;
+    }
+    
+    .lead {
+        font-size: 1rem;
+    }
+    
+    .custom-btn {
+        font-size: 10px;
+    }
+
+    .about-me {
+        padding-top: 1%;
+    }
+}
 
