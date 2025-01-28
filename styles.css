@@ -101,3 +101,63 @@ body {
 .navbar-collapse {
     background-color: black !important;
 }
+
+/* Image Background Section */
+.image-background {
+    background-image: url('https://images6.alphacoders.com/947/947671.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 90vh;
+    position: relative;
+    margin-top: 60px; /* Adjust this to match the height of the navbar */
+    z-index: 0; /* Ensure the image background is behind the overlay */
+}
+
+/* Optional: Overlay and Text Content Style */
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%; /* Adjusted to center horizontally */
+    width: 100%;
+    height: 100%;
+    transform: translate(-50%, -50%); /* Ensures perfect centering */
+    background-color: rgba(0, 0, 0, 0.5); /* Dim the background */
+    z-index: 1; /* Ensure the overlay sits on top of the background */
+}
+
+.text-content {
+    font-size: 3em;
+    text-align: left; /* Text aligned to the left */
+    margin-left: 4%;
+    max-width: 50%; /* Limits the width */
+    color: white;
+    margin-top: 17%; /* Removed the top margin for better alignment */
+}
+
+.display-4 {
+    font-family: "Stick", sans-serif;
+    font-size: 90px;
+    font-weight: bold;
+    color: white;
+}
+
+.lead {
+    font-family: "Yuji Syuku", serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: color;
+}
+
+.custom-btn {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    border-radius: 15px;
+    padding: 10px 25px;
+    font-weight: bold;
+}
+
+.about-me {
+    padding-top: 75px;
+}
