@@ -216,6 +216,22 @@ body {
     font-weight: bold;
 }
 
+.card-text {
+    font-family: Arial;
+    font-size: 15px;
+    color: black;
+}
+
+.row.justify-content-center {
+    gap: 60px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 
 
 
