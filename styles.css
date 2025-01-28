@@ -128,11 +128,11 @@ body {
 
 .text-content {
     font-size: 3em;
-    text-align: left; /* Text aligned to the left */
+    text-align: left; 
     margin-left: 4%;
-    max-width: 50%; /* Limits the width */
+    max-width: 50%; 
     color: white;
-    margin-top: 17%; /* Removed the top margin for better alignment */
+    margin-top: 17%; 
 }
 
 .display-4 {
